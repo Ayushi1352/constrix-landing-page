@@ -1,0 +1,649 @@
+{
+  "Constrix": {
+    "theme": {
+      "colors": {
+        "page": "#ffffff",
+        "cream": "#fcf8f4",
+        "peach": "#fceddd",
+        "backdrop": "#f5f5f5",
+        "line": "#ede4da",
+        "field": "#fdfbf9",
+        "ink": "#0a1c26",
+        "night": "#061219",
+        "panel": "#0f2532",
+        "body": "#3c4347",
+        "slate": "#5e6870",
+        "subtle": "#8a949b",
+        "copper": "#d47930",
+        "copper-light": "#eb9a43",
+        "copper-dark": "#a95e1e",
+        "flame": "#fb7d1b"
+      },
+      "fonts": {
+        "montserrat": {
+          "family": "Montserrat",
+          "fallback": "Arial, sans-serif",
+          "weights": [
+            500,
+            600,
+            700,
+            800
+          ],
+          "italic": false
+        },
+        "poppins": {
+          "family": "Poppins",
+          "fallback": "Arial, sans-serif",
+          "weights": [
+            300,
+            400,
+            500,
+            600
+          ],
+          "italic": false
+        }
+      }
+    },
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "ConstrixHeader1",
+          "EnquiryForm": "ConstrixEnquiryForm1",
+          "Footer": "ConstrixFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "ConstrixHero1"
+              },
+              {
+                "key": "About",
+                "component": "ConstrixAbout1"
+              },
+              {
+                "key": "Services",
+                "component": "ConstrixServices1"
+              },
+              {
+                "key": "Projects",
+                "component": "ConstrixProjects1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "ConstrixTestimonials1"
+              },
+              {
+                "key": "Faq",
+                "component": "ConstrixFaq1"
+              },
+              {
+                "key": "Contact",
+                "component": "ConstrixContact1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Header": {
+        "variants": {
+          "ConstrixHeader1": {
+            "brand": {
+              "name": "Constrix",
+              "logo": {
+                "src": "/images/logo.png",
+                "srcLight": "/images/logo-white.png",
+                "alt": "Constrix — Construction & Infrastructure",
+                "width": 1024,
+                "height": 341
+              }
+            },
+            "seo": {
+              "title": "Constrix | Construction & Infrastructure Solutions",
+              "description": "Constrix delivers residential, commercial, industrial and civil infrastructure construction — planned, built and handed over on time with quality you can trust."
+            },
+            "navigation": [
+              {
+                "label": "Home",
+                "href": "#home"
+              },
+              {
+                "label": "About Us",
+                "href": "#about"
+              },
+              {
+                "label": "Services",
+                "href": "#services"
+              },
+              {
+                "label": "Projects",
+                "href": "#projects"
+              },
+              {
+                "label": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "label": "FAQs",
+                "href": "#faq"
+              },
+              {
+                "label": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "cta": {
+              "label": "Get a Quote",
+              "href": "#contact"
+            },
+            "labels": {
+              "mainNav": "Main navigation",
+              "mobileNav": "Mobile navigation",
+              "openMenu": "Open menu",
+              "closeMenu": "Close menu",
+              "home": "Constrix — back to top"
+            }
+          }
+        }
+      },
+      "Hero": {
+        "variants": {
+          "ConstrixHero1": {
+            "label": "Building Today For A",
+            "titleTop": "Stronger",
+            "titleAccent": "Tomorrow",
+            "button": {
+              "label": "Get a Quote",
+              "href": "#contact"
+            },
+            "image": "/images/hero.webp"
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "ConstrixAbout1": {
+            "label": "About Us",
+            "titleTop": "Building Spaces That",
+            "titleAccent": "Last.",
+            "paragraphs": [
+              "At Constrix, we are committed to delivering high-quality construction and infrastructure solutions that create lasting value.",
+              "With a strong focus on safety, innovation and excellence, we turn ideas into well-built realities for a stronger, more sustainable future."
+            ],
+            "points": [
+              "Quality construction with precision and care.",
+              "Experienced and skilled professionals.",
+              "On-time project delivery with complete transparency.",
+              "Sustainable and future-ready construction solutions."
+            ],
+            "primaryImage": "/images/about-building.webp",
+            "primaryImageAlt": "Building under construction",
+            "secondaryImage": "/images/about-site-worker.webp",
+            "secondaryImageAlt": "Construction worker in a hard hat inspecting work on site",
+            "badge": {
+              "value": "25+",
+              "label": "Years of Experience"
+            },
+            "whyLabel": "Why Choose Constrix",
+            "whyChoose": [
+              {
+                "icon": "users",
+                "title": "Experienced Team",
+                "text": "Skilled professionals with proven expertise."
+              },
+              {
+                "icon": "shield",
+                "title": "Quality Assurance",
+                "text": "Superior quality at every stage of construction."
+              },
+              {
+                "icon": "clock",
+                "title": "On-Time Delivery",
+                "text": "Committed to project timelines with efficient planning."
+              },
+              {
+                "icon": "headset",
+                "title": "End-to-End Support",
+                "text": "From planning to handover, we're with you at every step."
+              }
+            ],
+            "stats": [
+              {
+                "value": 25,
+                "suffix": "+",
+                "label": "Years Experience"
+              },
+              {
+                "value": 850,
+                "suffix": "+",
+                "label": "Projects Delivered"
+              },
+              {
+                "value": 1200,
+                "suffix": "+",
+                "label": "Happy Clients"
+              },
+              {
+                "value": 98,
+                "suffix": "%",
+                "label": "On-Time Handover"
+              }
+            ]
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "ConstrixServices1": {
+            "label": "Our Services",
+            "titleTop": "Complete Construction Solutions",
+            "titleAccent": "Under One Roof",
+            "description": "From residential buildings to large-scale infrastructure, we deliver end-to-end construction solutions with quality, innovation and reliability.",
+            "cardButton": "Get a Quote",
+            "cards": [
+              {
+                "icon": "home",
+                "title": "Residential Construction",
+                "image": "/images/service-residential.webp",
+                "text": "Custom homes, villas, apartments and housing projects built with quality and precision."
+              },
+              {
+                "icon": "building",
+                "title": "Commercial Construction",
+                "image": "/images/service-commercial.webp",
+                "text": "Offices, shopping complexes, showrooms and commercial spaces for modern businesses."
+              },
+              {
+                "icon": "factory",
+                "title": "Industrial Construction",
+                "image": "/images/service-industrial.webp",
+                "text": "Factories, warehouses and industrial facilities designed for efficiency and growth."
+              },
+              {
+                "icon": "bridge",
+                "title": "Infrastructure Development",
+                "image": "/images/service-infrastructure.webp",
+                "text": "Roads, bridges, flyovers and civil infrastructure for stronger communities."
+              },
+              {
+                "icon": "tools",
+                "title": "Renovation & Remodeling",
+                "image": "/images/service-renovation.webp",
+                "text": "Transforming existing spaces with innovative renovation and remodeling solutions."
+              },
+              {
+                "icon": "drafting",
+                "title": "Architecture & Design",
+                "image": "/images/service-architecture.webp",
+                "text": "Creative architectural design, planning and 3D visualization for innovative spaces."
+              },
+              {
+                "icon": "sofa",
+                "title": "Interior Fit-Out",
+                "image": "/images/service-interior.webp",
+                "text": "Complete interior fit-out solutions for residential and commercial spaces."
+              },
+              {
+                "icon": "bricks",
+                "title": "Civil Engineering Works",
+                "image": "/images/service-civil.webp",
+                "text": "Structural and general civil construction with high engineering standards."
+              }
+            ],
+            "featured": {
+              "label": "Modern Homes",
+              "titleTop": "Built For",
+              "titleAccent": "Modern Living",
+              "description": "We focus on quality, functionality and design to create homes that bring comfort, style and value for years to come.",
+              "image": "/images/modern-living.webp",
+              "imageAlt": "Modern living room interior",
+              "features": [
+                {
+                  "icon": "home",
+                  "title": "Custom Home Design"
+                },
+                {
+                  "icon": "gear",
+                  "title": "End-to-End Management"
+                },
+                {
+                  "icon": "shield",
+                  "title": "Quality Materials"
+                },
+                {
+                  "icon": "leaf",
+                  "title": "Sustainable Solutions"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Projects": {
+        "variants": {
+          "ConstrixProjects1": {
+            "label": "Our Projects",
+            "titleTop": "Featured Construction",
+            "titleAccent": "Projects",
+            "description": "A look at the homes, workplaces, facilities and infrastructure our teams have planned, built and handed over.",
+            "allLabel": "All",
+            "categories": [
+              "Residential",
+              "Commercial",
+              "Industrial",
+              "Infrastructure"
+            ],
+            "filterLabel": "Filter projects by category",
+            "items": [
+              {
+                "title": "Modern Villa Residence",
+                "category": "Residential",
+                "image": "/images/project-villa.webp"
+              },
+              {
+                "title": "Corporate Headquarters",
+                "category": "Commercial",
+                "image": "/images/project-tower.webp"
+              },
+              {
+                "title": "Manufacturing Plant Upgrade",
+                "category": "Industrial",
+                "image": "/images/project-industrial.webp"
+              },
+              {
+                "title": "Metro Corridor Expansion",
+                "category": "Infrastructure",
+                "image": "/images/project-highway.webp"
+              },
+              {
+                "title": "Skyline Residences",
+                "category": "Residential",
+                "image": "/images/service-residential.webp"
+              },
+              {
+                "title": "Retail Plaza Complex",
+                "category": "Commercial",
+                "image": "/images/service-commercial.webp"
+              },
+              {
+                "title": "Logistics Distribution Hub",
+                "category": "Industrial",
+                "image": "/images/service-industrial.webp"
+              },
+              {
+                "title": "Bridge & Drainage Works",
+                "category": "Infrastructure",
+                "image": "/images/service-infrastructure.webp"
+              },
+              {
+                "title": "Lakeside Family Homes",
+                "category": "Residential",
+                "image": "/images/project-lakeside.webp"
+              },
+              {
+                "title": "Downtown Business Center",
+                "category": "Commercial",
+                "image": "/images/project-downtown.webp"
+              }
+            ],
+            "viewerLabel": "Project image viewer",
+            "openLabel": "View {title}",
+            "closeLabel": "Close viewer",
+            "previousLabel": "Previous project",
+            "nextLabel": "Next project"
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "ConstrixTestimonials1": {
+            "label": "Testimonials",
+            "titleTop": "What Our",
+            "titleAccent": "Clients Say",
+            "description": "Our clients trust us for our quality, commitment and ability to deliver projects that exceed their expectations.",
+            "image": "/images/testimonial-site.webp",
+            "imageAlt": "A Constrix construction site at work",
+            "rating": {
+              "value": "4.9/5",
+              "label": "Average client rating"
+            },
+            "ratingLabel": "Rated 5 out of 5",
+            "previousLabel": "Previous testimonial",
+            "nextLabel": "Next testimonial",
+            "showLabel": "Show testimonial from {name}",
+            "items": [
+              {
+                "name": "Rohit Sharma",
+                "role": "Homeowner",
+                "quote": "Constrix delivered our dream home with exceptional quality and professionalism. The entire team was supportive, transparent and completed the project on time. We couldn't be happier with the result."
+              },
+              {
+                "name": "Priya Mehta",
+                "role": "Business Owner",
+                "quote": "We partnered with Constrix for our commercial building, and the experience was outstanding. Their attention to detail, planning and execution were top-notch, with clear communication throughout."
+              },
+              {
+                "name": "Amit Verma",
+                "role": "Property Investor",
+                "quote": "From design to handover, the Constrix team made the entire process seamless. Their expertise and commitment to quality really show in the final result. Highly recommended."
+              },
+              {
+                "name": "Karan Malhotra",
+                "role": "Restaurant Owner",
+                "quote": "Professional, reliable and highly skilled team. Constrix understood our requirements perfectly and delivered a space that fits our needs and brand image. Truly impressive work."
+              },
+              {
+                "name": "Neha Kapoor",
+                "role": "Homeowner",
+                "quote": "We are extremely satisfied with the quality of work and the timely delivery. Constrix turns ideas into reality with great precision. Their team is knowledgeable, responsive and easy to work with."
+              },
+              {
+                "name": "Vikram Singh",
+                "role": "Industrial Client",
+                "quote": "Constrix exceeded our expectations with innovative solutions and high-quality construction. Communication was excellent, and the team ensured everything was completed on schedule."
+              }
+            ]
+          }
+        }
+      },
+      "Faq": {
+        "variants": {
+          "ConstrixFaq1": {
+            "label": "FAQs",
+            "titleTop": "Frequently Asked",
+            "titleAccent": "Questions",
+            "description": "Quick answers to common questions about our construction process, cost estimates, timelines, approvals and warranties.",
+            "help": {
+              "title": "Still have questions?",
+              "text": "Our team is happy to talk through your project and guide you with the best solution.",
+              "button": {
+                "label": "Get a Quote",
+                "href": "#contact"
+              }
+            },
+            "items": [
+              {
+                "question": "What types of construction projects does Constrix handle?",
+                "answer": "Constrix handles residential homes and villas, commercial towers and office complexes, industrial factories and warehouses, as well as civil infrastructure projects such as roads and bridges. We also offer full renovation and architectural planning services."
+              },
+              {
+                "question": "How do I get a cost estimate for my project?",
+                "answer": "Fill in the quote form below or contact our team directly. Once we understand your requirements, built-up area and location, we provide a detailed, itemized Bill of Quantities (BOQ) with transparent pricing."
+              },
+              {
+                "question": "Do you assist with building permits and approvals?",
+                "answer": "Yes. Our team prepares architectural drawings, submits municipal sanctions and coordinates approvals to ensure full compliance with the National Building Code (NBC) and local bylaws."
+              },
+              {
+                "question": "What is the typical timeline for a residential home?",
+                "answer": "A standard residential project typically takes 8 to 14 months depending on total area, design complexity and finish selections. We provide a milestone-based project schedule before construction starts."
+              },
+              {
+                "question": "What payment structure do you follow?",
+                "answer": "We follow a milestone-based payment schedule tied to actual progress on site — foundation, slab casting per level, masonry, MEP works and final finishes. You only pay as each stage is completed and verified."
+              },
+              {
+                "question": "What warranty do you offer after completion?",
+                "answer": "We provide a 10-year structural warranty on core concrete and RCC frameworks, along with a 12-month Defect Liability Period covering plumbing, electrical works and waterproofing after handover."
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "ConstrixContact1": {
+            "label": "Contact Us",
+            "titleTop": "Let's Build",
+            "titleAccent": "Your Vision Together",
+            "description": "Whether it's a residential, commercial or industrial project, our team is here to provide a detailed and transparent quote tailored to your requirements.",
+            "info": [
+              {
+                "icon": "phone",
+                "title": "Call Us",
+                "lines": [
+                  "+1 000-000-0000"
+                ],
+                "href": "tel:+10000000000"
+              },
+              {
+                "icon": "mail",
+                "title": "Email Us",
+                "lines": [
+                  "info@xyz.com"
+                ],
+                "href": "mailto:info@xyz.com"
+              },
+              {
+                "icon": "pin",
+                "title": "Visit Our Office",
+                "lines": [
+                  "123 Demo Street,",
+                  "Springfield, IL 62701, USA"
+                ],
+                "href": "https://maps.google.com/?q=123+Demo+Street+Springfield+IL+62701"
+              },
+              {
+                "icon": "clock",
+                "title": "Working Hours",
+                "lines": [
+                  "Mon - Sat: 9:00 AM - 6:00 PM",
+                  "Sunday: Closed"
+                ],
+                "href": ""
+              }
+            ],
+            "benefits": [
+              "No hidden costs — clear, transparent quotations",
+              "Tailored solutions for every project",
+              "We get back to you within 24 hours"
+            ],
+            "form": {
+              "label": "Get a Free Quote",
+              "title": "Project Details",
+              "description": "Fill out the form below and our team will get in touch with you within 24 hours."
+            }
+          }
+        }
+      },
+      "EnquiryForm": {
+        "variants": {
+          "ConstrixEnquiryForm1": {
+            "fields": {
+              "name": "Full Name*",
+              "phone": "Phone Number*",
+              "email": "Email Address*",
+              "projectType": "Project Type*",
+              "location": "Project Location",
+              "message": "Tell us about your project (size, requirements, timeline)*"
+            },
+            "projectTypes": [
+              "Residential",
+              "Commercial",
+              "Industrial",
+              "Infrastructure",
+              "Renovation & Remodeling",
+              "Architecture & Design",
+              "Other"
+            ],
+            "button": "Submit Request",
+            "sending": "Sending…",
+            "successTitle": "Thank you, {name}!",
+            "success": "Your request has been received. Our team will get in touch with you within 24 hours.",
+            "closeLabel": "Close message"
+          }
+        }
+      },
+      "Footer": {
+        "variants": {
+          "ConstrixFooter1": {
+            "tagline": "At Constrix, we build more than structures — we create lasting spaces for people, businesses and communities.",
+            "quickLinksTitle": "Quick Links",
+            "quickLinks": [
+              {
+                "label": "Home",
+                "href": "#home"
+              },
+              {
+                "label": "About Us",
+                "href": "#about"
+              },
+              {
+                "label": "Services",
+                "href": "#services"
+              },
+              {
+                "label": "Projects",
+                "href": "#projects"
+              },
+              {
+                "label": "Testimonials",
+                "href": "#testimonials"
+              },
+              {
+                "label": "FAQs",
+                "href": "#faq"
+              },
+              {
+                "label": "Contact Us",
+                "href": "#contact"
+              }
+            ],
+            "contactTitle": "Get In Touch",
+            "socials": [
+              {
+                "platform": "facebook",
+                "label": "Facebook",
+                "href": "https://www.facebook.com/"
+              },
+              {
+                "platform": "instagram",
+                "label": "Instagram",
+                "href": "https://www.instagram.com/"
+              },
+              {
+                "platform": "linkedin",
+                "label": "LinkedIn",
+                "href": "https://www.linkedin.com/"
+              },
+              {
+                "platform": "youtube",
+                "label": "YouTube",
+                "href": "https://www.youtube.com/"
+              }
+            ],
+            "copyright": "© {year} Constrix. All Rights Reserved. Powered by Lestow.",
+            "motto": [
+              "Plan",
+              "Build",
+              "Deliver"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
